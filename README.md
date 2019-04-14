@@ -30,5 +30,5 @@
 #  PROBABILITY: Probabilities of errors in column 1 (see also formula 3a in the main text). 
 #    For example, FOR 5 compounds in class 1, error of 0 has probability of 3.125e-2 (see the main text).
 #  CUMULATIVE (COLUMN 4) is the sum of probabilities giving error not above the given.
-#    Density
+#  DENSITY VALUES (COLUMN 5) ARE SAME AS PROBABILITY VALUES (COLUMN 2). 
 #   CUMULATIVE (COLUMN 6) is the sum of densities giving error not above the given in column 1.
