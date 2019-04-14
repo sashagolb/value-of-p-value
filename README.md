@@ -16,19 +16,20 @@
 #  FOR EACH CLASS OF CATEGORY, SUM OF PROBABILITIES SHOULD BE 1.
 #
 #  USAGE EXAMPLE:
-#    ./pvalues9 9.out 2 0.6 0.4 0.4 0.6 
+#    ./pvalues9 9.out 2 0.5 0.5 0.4 0.6 
 #
 #  OUTPUT IN THE FILE IS ALWAYS COPIED ON THE SCREEN
 #
 #  OUTPUT FORMAT
 #  TABLES ARE BUILT FOR ERRORS IN EACH CLASS OR CATEGORY AND FOR THE TOTAL DISTRIBUTION OF ERRORS.
-#  TABLES ARE BUILT FOR EACH CLASS AND A TOTAL DISTRIBUTION OF ERRORS IS ALSO BUILT.
+#  TABLES ARE BUILT FOR EACH CLASS AND A TOTAL DISTRIBUTION OF ERRORS IS ALSO CALCULATED.
 #  TABLE FOR A CLASS CONTAINS FIVE COLUMNS.
 #  COLUMN 1: ERROR.
-#    COMBINATIONS: THE NUMBER OF COMBINATIONS OF COMPOUNDS GIVING A CERTAIN TOTAL ERROR. 
-#    IN AN EXAMPLE BELOW, FOR 5 compounds in class 1 10 combinations gives error of 2.
-#    Error 0 has probability of 3.125e-2.
-#    Cumulative probability is sum of probabilities giving error not above given.
+#  COMBINATIONS: THE NUMBER OF COMBINATIONS OF COMPOUNDS GIVING AN ERROR FROM COLUMN 1. 
+#    For example, FOR 5 compounds in class 1 10 combinations gives error of 2.
+#  PROBABILITY: Probabilities of errors in column 1 (see also formula 3a in the main text). 
+#    For example, FOR 5 compounds in class 1, error of 0 has probability of 3.125e-2 (see the main text).
+#  CUMULATIVE (COLUMN 4) is sum of probabilities giving error not above the given.
 #    Density
 #    Cumulative density
 
