@@ -1,11 +1,12 @@
 # value-of-p-value
-# the pvalues-2019-april.c software calculates p-values for classification and category variables
+# the pvalues-2019-april-2.c software calculates p-values for classification and category variables
 # see publication "value of p-value" in Molecular Informatics (2019)
 # download the file to a working directory and create an executable in working directory:
 # for linux: gcc pvalues-2019-april.c -o pvalues9.exe -lm
 # for cygwin: gcc pvalues-2019-april.c -o pvalues9.exe -lm
 # and use it as follows:
 # USAGE: ./pvalues9 PARAMETERS (ALL IN ONE LINE)
+# PARAMETERS:
 # OUTPUTFILE
 #  1 (FOR CLASSIFICATION) 2 (FOR CATEGORY)
 #  NUMBER OF CLASSES OR CATEGORIES: LET IT BE N
