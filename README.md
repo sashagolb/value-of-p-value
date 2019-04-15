@@ -28,7 +28,8 @@
 #  COLUMN 1: ERROR.
 #  COMBINATIONS: THE NUMBER OF COMBINATIONS OF COMPOUNDS GIVING AN ERROR FROM COLUMN 1. 
 #    For example, FOR 5 compounds in class 1 10 combinations gives error of 2.
-#  PROBABILITY: Probabilities of errors in column 1 (see also formula 3a in the main text). 
+#  PROBABILITY: Probabilities for classes of errors in column 1 (see also formula 3a in the main text).
+#  PROBABILITY: Probabilities for categories of errors in column 1 are also discussed in the main text.
 #    For example, FOR 5 compounds in class 1, error of 0 has probability of 3.125e-2 (see the main text).
 #  CUMULATIVE (COLUMN 4) is the sum of probabilities giving error not above the given.
 #  DENSITY VALUES (COLUMN 5) ARE SAME AS PROBABILITY VALUES (COLUMN 2). 
